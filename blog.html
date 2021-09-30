@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>National University Laguna</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<section class="blog-sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo4.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="programs.html">PROGRAMS</a></li>
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>What You Need To Know</h1>	
+	</section>
+
+
+<!------ Blog Content ------->
+
+<section class="blog-content">
+
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/codefest1.jpg">
+			<h2>NU Laguna bagged awards at Coca-Cola CODE FESTIVAL 2019</h2>
+			<p>NU Laguna bagged the Technical Excellence Award during the CODE Festival 2019 initiated by Coca-Cola Philippines in partnership with Microsoft Philippines and YEAPS Corporation held last November 25, 2019 at Coca-Cola Headquarters, BGC, Taguig City. </p>
+			<br>
+			<p>CODE Festival 2019 is a multi-day hackathon where talented students are challenged to create business solutions apps in accordance to Coca-Cola’s company stakeholders.  Together with Microsoft and YEAPS, Coca-Cola aims to promote digital transformation in young leaders through Microsoft Power Platform."</p>
+			<br>
+			<p>Congratulations to our students from College of Computer Studies: Clark John Casin, Maureen Kate Dadap and Bowwi Katigbak and to their coach, Mr. Marlon Diloy, who helped our students to achieve this award.</p>
+			<br>
+			<p>#NULaguna<br>#EducationThatWorks</p>
+			<br>
+
+			<div class="comment-box">
+				<h3>Leave a comment</h3>
+				
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			</div>
+
+		</div>
+		<div class="blog-right">
+			<h3>Post Categories</h3>
+			<div>
+				<span>Senior High School</span>
+				<span>1</span>
+			</div>
+			<div>
+				<span>Information Systems</span>
+				<span>2</span>
+			</div>
+			<div>
+				<span>Information Technology</span>
+				<span>3</span>
+			</div>
+			<div>
+				<span>Computer Science</span>
+				<span>4</span>
+			</div>
+			<div>
+				<span>Tourism Management</span>
+				<span>5</span>
+			</div>
+			<div>
+				<span>Accounting</span>
+				<span>6</span>
+			</div>
+			<div>
+				<span>Civil Engineering</span>
+				<span>7</span>
+			</div> 
+		</div>
+
+	</div>
+	
+</section>
+
+<!------ Footer ------->
+
+<section class="footer">
+
+	<h4>About Us</h4>
+	<p>The first expansion of National University - Manila located at the birth place of the Philippine National Hero, the City of Calamba. NU Laguna's mission is to produce ethical, spiritual, responsible, and healthy citizens.</p>
+	
+	<div class="icons">
+		<a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+		<a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+		<a href="https://ph.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+		
+		<p>Made With <i class="fa fa-heart-o"></i> by RJ BESO</p>
+	</div>
+	
+
+
+</section>
+
+<!------Javascript for Toggle Menu----->
+<script>
+	
+	var navLinks = document.getElementById('navLinks')
+		function showMenu(){
+		navLinks.style.right ="0";
+		}
+	function hideMenu(){
+		navLinks.style.right ="-200px";
+		}
+
+</script>
+
+
+
+</body>
+</html>
